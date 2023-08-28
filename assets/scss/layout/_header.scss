@@ -1,4 +1,10 @@
-.header{
-  background: #69F0AE;
-  font-size: 64px;
+.navbar {
+  border-bottom: 3px solid $primary;
+  @include mobile {
+    border-bottom: 2px solid $primary;
+  }
+}
+.aaa {
+  object-fit: cover;
+  object-position: center;
 }

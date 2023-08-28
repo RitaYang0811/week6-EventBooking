@@ -1,5 +1,30 @@
-@import './layout/header.scss';
-@import './layout/footer.scss';
+// 匯入字型
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;600;700;800;900&family=Noto+Serif+TC:wght@200;300;400;500;600;700;900&family=Yeseva+One&display=swap");
+// 匯入iconfont
+@import "./icofont/_icofont.min.css";
 
+//自訂base
 
-@import './pages/index.scss';
+@import "./base/base";
+
+//客製bs
+@import "../../node_modules/bootstrap/scss/functions";
+@import "./utils/variables";
+@import "./utils/variables-dark";
+@import "./utils/maps";
+
+@import "./utils/utilities";
+@import "./utils/mixin";
+
+//自訂元件
+@import "./component/button";
+@import "./base/font";
+@import "./component/hover";
+
+//自訂ejs頁面樣式
+@import "./layout/header.scss";
+@import "./layout/footer.scss";
+//自訂每頁樣式
+@import "./pages/index.scss";
+
+@import "../../node_modules/bootstrap";
