@@ -4,6 +4,29 @@
     color: #9c9e18 !important;
   }
 }
+.h-link-yellow {
+  &:hover {
+    background: $secondary;
+  }
+}
+.h-link-text-yellow {
+  color: $white;
+  &:hover {
+    color: $secondary;
+  }
+}
+.h-link-page {
+  color: #000;
+  &:hover {
+    color: $secondary !important;
+    background: #000 !important;
+  }
+  &:active {
+    color: $secondary !important;
+    background: #000 !important;
+  }
+}
+
 .h-link-underline {
   &:hover {
     text-decoration: underline;
@@ -30,9 +53,7 @@
     position: absolute;
     content: "";
     width: 4px;
-
     background: #000;
-
     top: -1px;
     bottom: -1px;
     left: -1px;

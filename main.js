@@ -3,6 +3,7 @@ import "bootstrap/dist/js/bootstrap.min.js";
 
 console.log("Hello world!");
 
+//跑馬燈
 const swiper = new Swiper(".mySwiper", {
   //避免使用者移動到
   allowTouchMove: false,
