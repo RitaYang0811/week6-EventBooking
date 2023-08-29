@@ -383,7 +383,7 @@ $enable-grid-classes: true !default;
 $enable-container-classes: true !default;
 $enable-cssgrid: false !default;
 $enable-button-pointers: true !default;
-$enable-rfs: false; //true !default; *custom
+$enable-rfs: true !default;
 $enable-validation-icons: true !default;
 $enable-negative-margins: false !default;
 $enable-deprecation-messages: true !default;
@@ -682,6 +682,7 @@ $h5-font-size: $font-size-base * 1.5 !default; //*custom 24px
 $h6-font-size: $font-size-base * 1.375 !default; //*custom 22px
 $h7-font-size: $font-size-base * 1.125 !default; //*custom 18px
 $h8-font-size: $font-size-base * 1 !default; //*custom 16px
+$h9-font-size: $font-size-base * 0.875 !default; //*custom 14px
 // scss-docs-end font-variables
 
 // scss-docs-start font-sizes
@@ -702,6 +703,7 @@ $font-sizes: (
   6: $h6-font-size,
   7: $h7-font-size,
   8: $h8-font-size,
+  9: $h9-font-size,
 ) !default;
 // scss-docs-end font-sizes
 

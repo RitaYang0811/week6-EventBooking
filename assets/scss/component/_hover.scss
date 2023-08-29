@@ -1,6 +1,43 @@
-.hover-link {
+.h-link-green {
   color: $primary !important;
   &:hover {
     color: #9c9e18 !important;
+  }
+}
+.h-link-underline {
+  &:hover {
+    text-decoration: underline;
+  }
+}
+.h-link-yellowdot:hover::after {
+  content: "";
+  position: absolute;
+  width: 29px;
+  height: 29px;
+  left: -10px;
+  top: 0px;
+  border-radius: 50%;
+  z-index: -1;
+  background: $secondary;
+}
+
+.h-tag {
+  &:hover {
+    background: #000;
+    color: $white;
+  }
+  &::before {
+    position: absolute;
+    content: "";
+    width: 4px;
+
+    background: #000;
+
+    top: -1px;
+    bottom: -1px;
+    left: -1px;
+  }
+  &:hover::before {
+    background: $secondary;
   }
 }
