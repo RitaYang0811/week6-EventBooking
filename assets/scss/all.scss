@@ -4,7 +4,7 @@
 // }
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;600;700;800;900&family=Noto+Serif+TC:wght@200;300;400;500;600;700;900&family=Yeseva+One&display=swap");
 // 匯入iconfont
-@import "./icofont/_icofont.min.css";
+@import "./vendors/_icofont.min.css";
 
 //自訂base
 
@@ -23,10 +23,10 @@
 @import "./component/button";
 @import "./base/font";
 @import "./component/hover";
+@import "./component/custom-pagination";
 
 //自訂ejs頁面樣式
-@import "./layout/header.scss";
-@import "./layout/footer.scss";
+
 //自訂每頁樣式
 @import "./pages/index.scss";
 

@@ -13,11 +13,6 @@
   }
 }
 
-.online-pic {
-  width: 100%;
-  height: 310px; //如何不寫死高度，讓照片高度可以自適應右邊文字
-  object-position: 50% 30%;
-}
 .tag-rotate-end {
   transform: translate(-50%, -50%) rotate(-4deg);
 }
