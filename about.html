@@ -5,17 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>about</title>
-    <script type="module" crossorigin src="/week6-EventBooking/assets/main-7c7af982.js"></script>
-    <link rel="stylesheet" href="/week6-EventBooking/assets/main-95cbf9a2.css">
+    <script type="module" crossorigin src="/week6-EventBooking/assets/main-8245b9e4.js"></script>
+    <link rel="stylesheet" href="/week6-EventBooking/assets/main-f6758dd6.css">
   </head>
   <body>
     <nav
   class="navbar navbar-expand-lg border-bottom border-2 border-lg-3"
   style="background-color: #f3f1e5"
 >
-  <div class="container my-3 my-lg-6 justify-content-between">
+  <div class="container my-3 my-lg-6">
     <!-- logo -->
-    <div class="d-flex justify-content-start gap-lg-12">
+    <!-- 設定w-75，讓欄位依照75%彈性調整寬度 -->
+    <div class="d-flex justify-content-start gap-lg-12 w-75">
       <h1>
         <a href="index.html" class="d-flex align-items-center">
           <span
@@ -25,21 +26,22 @@
               src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023week6/logo.png?raw=true"
               alt="logo-sparkle"
               class="img-fluid d-none d-lg-block me-0 me-lg-4"
-              style="width: 53px; height: 53px" />
+              style="min-width: 53px; height: 53px" />
             <img
               src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023week6/logo.png?raw=true"
               alt="logo-sparkle"
               class="img-fluid d-block d-lg-none"
-              style="width: 40px; height: 40px"
+              style="min-width: 40px; height: 40px"
           /></span>
           <span class="h4 me-1 d-none d-lg-inline-block">7TAO </span>
           <span class="display-8 d-none d-lg-inline-block">活動訂票網</span>
         </a>
       </h1>
       <!--搜尋 -->
+
       <form class="d-flex" role="search">
         <input
-          class="form-control border-2 rounded-0 py-0 pe-0"
+          class="form-control border-2 rounded-0 py-0 pe-0 bg-transparent"
           type="search"
           placeholder="探索活動"
           aria-label="Search"
@@ -62,7 +64,7 @@
       >
         <span
           class="navbar-toggler-icon text-primary"
-          style="width: 30px; height: 30px"
+          style="max-width: 30px; height: 30px"
         ></span>
       </button>
       <!-- 從右側滑出側邊欄 -->

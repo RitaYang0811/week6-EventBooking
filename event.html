@@ -9,17 +9,18 @@
       href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
     />
     <title>7TAO 活動訂票網</title>
-    <script type="module" crossorigin src="/week6-EventBooking/assets/main-7c7af982.js"></script>
-    <link rel="stylesheet" href="/week6-EventBooking/assets/main-95cbf9a2.css">
+    <script type="module" crossorigin src="/week6-EventBooking/assets/main-8245b9e4.js"></script>
+    <link rel="stylesheet" href="/week6-EventBooking/assets/main-f6758dd6.css">
   </head>
   <body style="background-color: #f3f1e5">
     <nav
   class="navbar navbar-expand-lg border-bottom border-2 border-lg-3"
   style="background-color: #f3f1e5"
 >
-  <div class="container my-3 my-lg-6 justify-content-between">
+  <div class="container my-3 my-lg-6">
     <!-- logo -->
-    <div class="d-flex justify-content-start gap-lg-12">
+    <!-- 設定w-75，讓欄位依照75%彈性調整寬度 -->
+    <div class="d-flex justify-content-start gap-lg-12 w-75">
       <h1>
         <a href="index.html" class="d-flex align-items-center">
           <span
@@ -29,21 +30,22 @@
               src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023week6/logo.png?raw=true"
               alt="logo-sparkle"
               class="img-fluid d-none d-lg-block me-0 me-lg-4"
-              style="width: 53px; height: 53px" />
+              style="min-width: 53px; height: 53px" />
             <img
               src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023week6/logo.png?raw=true"
               alt="logo-sparkle"
               class="img-fluid d-block d-lg-none"
-              style="width: 40px; height: 40px"
+              style="min-width: 40px; height: 40px"
           /></span>
           <span class="h4 me-1 d-none d-lg-inline-block">7TAO </span>
           <span class="display-8 d-none d-lg-inline-block">活動訂票網</span>
         </a>
       </h1>
       <!--搜尋 -->
+
       <form class="d-flex" role="search">
         <input
-          class="form-control border-2 rounded-0 py-0 pe-0"
+          class="form-control border-2 rounded-0 py-0 pe-0 bg-transparent"
           type="search"
           placeholder="探索活動"
           aria-label="Search"
@@ -66,7 +68,7 @@
       >
         <span
           class="navbar-toggler-icon text-primary"
-          style="width: 30px; height: 30px"
+          style="max-width: 30px; height: 30px"
         ></span>
       </button>
       <!-- 從右側滑出側邊欄 -->
@@ -110,92 +112,113 @@
           <p class="fs-8 fs-lg-4 mb-0 fw-bold">近期活動</p>
         </h3>
         <!-- tag -->
-        <div class="mb-8 d-flex flex-wrap gap-2">
-          <span
+        <ul class="mb-8 d-flex flex-wrap gap-2 list-unstyled">
+          <li
             class="font-notoserif fw-bold fs-9 fs-md-8 border border-1 py-1 px-3 px-md-6 h-tag position-relative"
-            >演出</span
           >
-          <span
+            演出
+          </li>
+          <li
             class="text-center font-notoserif fw-bold fs-9 fs-md-8 border border-1 py-1 px-3 px-md-6 h-tag position-relative"
-            >音樂</span
           >
-          <span
+            音樂
+          </li>
+          <li
             class="text-center font-notoserif fw-bold fs-9 fs-md-8 border border-1 py-1 px-3 px-md-6 h-tag position-relative"
-            >舞蹈</span
           >
-          <span
+            舞蹈
+          </li>
+          <li
             class="font-notoserif fw-bold fs-9 fs-md-8 border border-1 py-1 px-3 px-md-6 h-tag position-relative"
-            >戲劇</span
           >
-          <span
+            戲劇
+          </li>
+          <li
             class="text-center font-notoserif fw-bold fs-9 fs-md-8 border border-1 py-1 px-3 px-md-6 h-tag position-relative"
-            >音樂會</span
           >
-          <span
+            音樂會
+          </li>
+          <li
             class="text-center font-notoserif fw-bold fs-9 fs-md-8 border border-1 py-1 px-3 px-md-6 h-tag position-relative"
-            >課程講座</span
           >
-          <span
+            課程講座
+          </li>
+          <li
             class="font-notoserif fw-bold fs-9 fs-md-8 border border-1 py-1 px-3 px-md-6 h-tag position-relative"
-            >社群活動</span
           >
-          <span
+            社群活動
+          </li>
+          <li
             class="text-center font-notoserif fw-bold fs-9 fs-md-8 border border-1 py-1 px-3 px-md-6 h-tag position-relative"
-            >展覽</span
           >
-          <span
+            展覽
+          </li>
+          <li
             class="text-center font-notoserif fw-bold fs-9 fs-md-8 border border-1 py-1 px-3 px-md-6 h-tag position-relative"
-            >研討會</span
           >
-          <span
+            研討會
+          </li>
+          <li
             class="font-notoserif fw-bold fs-9 fs-md-8 border border-1 py-1 px-3 px-md-6 h-tag position-relative"
-            >電影</span
           >
-          <span
+            電影
+          </li>
+          <li
             class="text-center font-notoserif fw-bold fs-9 fs-md-8 border border-1 py-1 px-3 px-md-6 h-tag position-relative"
-            >電音派對</span
           >
-          <span
+            電音派對
+          </li>
+          <li
             class="text-center font-notoserif fw-bold fs-9 fs-md-8 border border-1 py-1 px-3 px-md-6 h-tag position-relative"
-            >遊戲競賽</span
           >
-          <span
+            遊戲競賽
+          </li>
+          <li
             class="font-notoserif fw-bold fs-9 fs-md-8 border border-1 py-1 px-3 px-md-6 h-tag position-relative"
-            >親子</span
           >
-          <span
+            親子
+          </li>
+          <li
             class="text-center font-notoserif fw-bold fs-9 fs-md-8 border border-1 py-1 px-3 px-md-6 h-tag position-relative"
-            >藝文活動</span
           >
-          <span
+            藝文活動
+          </li>
+          <li
             class="text-center font-notoserif fw-bold fs-9 fs-md-8 border border-1 py-1 px-3 px-md-6 h-tag position-relative"
-            >運動</span
           >
-          <span
+            運動
+          </li>
+          <li
             class="font-notoserif fw-bold fs-9 fs-md-8 border border-1 py-1 px-3 px-md-6 h-tag position-relative"
-            >交通旅遊</span
           >
-          <span
+            交通旅遊
+          </li>
+          <li
             class="text-center font-notoserif fw-bold fs-9 fs-md-8 border border-1 py-1 px-3 px-md-6 h-tag position-relative"
-            >美食</span
           >
-          <span
+            美食
+          </li>
+          <li
             class="text-center font-notoserif fw-bold fs-9 fs-md-8 border border-1 py-1 px-3 px-md-6 h-tag position-relative"
-            >資訊科技</span
           >
-          <span
+            資訊科技
+          </li>
+          <li
             class="font-notoserif fw-bold fs-9 fs-md-8 border border-1 py-1 px-3 px-md-6 h-tag position-relative"
-            >聯誼</span
           >
-          <span
+            聯誼
+          </li>
+          <li
             class="text-center font-notoserif fw-bold fs-9 fs-md-8 border border-1 py-1 px-3 px-md-6 h-tag position-relative"
-            >戶外</span
           >
-          <span
+            戶外
+          </li>
+          <li
             class="text-center font-notoserif fw-bold fs-9 fs-md-8 border border-1 py-1 px-3 px-md-6 h-tag position-relative"
-            >線上活動</span
           >
-        </div>
+            線上活動
+          </li>
+        </ul>
         <!-- content -->
         <div
           class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-6 gy-lg-3 mb-2 mb-lg-3"
@@ -836,7 +859,7 @@
             >
               <li class="page-item d-flex justify-content-center mx-1">
                 <a
-                  class="page-link bg-transparent rounded-0 fw-bold font-notoserif fs-8 border border-1 h-link-page"
+                  class="page-link bg-transparent rounded-0 fw-bold font-notoserif fs-8 border border-1 h-link-page text-center"
                   href="#"
                   aria-label="Previous"
                   style="width: 40px; height: 40px"
@@ -846,7 +869,7 @@
               </li>
               <li class="page-item d-flex justify-content-center mx-1">
                 <a
-                  class="page-link bg-transparent rounded-0 fw-bold font-notoserif fs-8 border border-1 h-link-page"
+                  class="page-link bg-transparent rounded-0 fw-bold font-notoserif fs-8 border border-1 h-link-page text-center"
                   href="#"
                   style="width: 40px; height: 40px"
                   >1</a
@@ -854,7 +877,7 @@
               </li>
               <li class="page-item d-flex justify-content-center mx-1">
                 <a
-                  class="page-link bg-transparent rounded-0 fw-bold font-notoserif fs-8 border border-1 h-link-page"
+                  class="page-link rounded-0 fw-bold font-notoserif fs-8 border border-1 h-link-page active text-center"
                   href="#"
                   style="width: 40px; height: 40px"
                   >2</a
@@ -862,7 +885,7 @@
               </li>
               <li class="page-item d-flex justify-content-center mx-1">
                 <a
-                  class="page-link bg-transparent rounded-0 fw-bold font-notoserif fs-8 border border-1 h-link-page"
+                  class="page-link bg-transparent rounded-0 fw-bold font-notoserif fs-8 border border-1 h-link-page text-center"
                   href="#"
                   style="width: 40px; height: 40px"
                   >3</a
@@ -870,7 +893,7 @@
               </li>
               <li class="page-item d-flex justify-content-center mx-1">
                 <a
-                  class="page-link bg-transparent rounded-0 fw-bold font-notoserif fs-8 border border-1 h-link-page"
+                  class="page-link bg-transparent rounded-0 fw-bold font-notoserif fs-8 border border-1 h-link-page text-center"
                   href="#"
                   style="width: 40px; height: 40px"
                   >4</a
@@ -878,7 +901,7 @@
               </li>
               <li class="page-item d-flex justify-content-center mx-1">
                 <a
-                  class="page-link bg-transparent rounded-0 fw-bold font-notoserif fs-8 border border-1 h-link-page"
+                  class="page-link bg-transparent rounded-0 fw-bold font-notoserif fs-8 border border-1 h-link-page text-center"
                   href="#"
                   style="width: 40px; height: 40px"
                   >5</a
@@ -886,7 +909,7 @@
               </li>
               <li class="page-item d-flex justify-content-center mx-1">
                 <a
-                  class="page-link bg-transparent rounded-0 fw-bold font-notoserif fs-8 border border-1 h-link-page"
+                  class="page-link bg-transparent rounded-0 fw-bold font-notoserif fs-8 border border-1 h-link-page text-center"
                   href="#"
                   aria-label="Next"
                   style="width: 40px; height: 40px"
