@@ -3,9 +3,20 @@
 
 ## 7TAO活動訂票網
 #### 此為課程作業
-https://ritayang0811.github.io/week6-EventBooking/
+###### https://ritayang0811.github.io/week6-EventBooking/
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
 ![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white)
 ![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
+
+## 使用技術
+- 使用 Bootstrap 5、客製化部分樣式
+- SaSS
+- EJS 樣板
+- Swiper 輪播
+- Vite 佈署
+  
+## 頁面
+- index
+- event
